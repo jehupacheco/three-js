@@ -1,0 +1,9 @@
+{
+  "name": "Three-Demos",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

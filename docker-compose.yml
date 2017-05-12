@@ -1,0 +1,9 @@
+version: '2'
+services:
+  workspace:
+    command: npm start
+    build: .
+    volumes:
+      - .:/home/node/app
+    ports:
+      - "8080:8080"
